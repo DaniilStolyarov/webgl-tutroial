@@ -1,0 +1,49 @@
+*
+{
+
+    --base: #0f0f0f;
+    --background-accent: rgb(91, 67, 146);
+    --accent: #fff717;
+    font-family: sans-serif;
+    
+}
+html
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: var(--base);
+    touch-action: none;
+}
+body
+{
+    box-sizing: border-box;
+    display: flex;
+
+    height: 100%;
+    margin: 0 auto;
+}
+header
+{
+    width: 60px;
+    margin-right: 4px;
+    border-right: 2px black solid;
+    background-color: var(--background-accent);
+}
+.accented-text
+{
+    color: var(--accent);
+}
+
+main
+{
+    display: block;
+    width: 100%;
+}
+#game
+{
+   display: block;
+   width: 100%;
+   height: 100%;
+   font-size: 36px;
+}
